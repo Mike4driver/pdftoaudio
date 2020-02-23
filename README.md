@@ -8,13 +8,17 @@ so you will want to use run "npm i" before using
 USAGE:
 
 To Download pdf form url and change to audio
+
 python main.py -u http://yoururl.pdf
 
 To Convert local pdf file in root directory to audio
+
 python main.py -f yourfile.pdf
 
 To Grab wikipedia page
+
 python main.py -w http://yoururl.com
 
 To Grab random wikipedia page
+
 python main.py -w -r

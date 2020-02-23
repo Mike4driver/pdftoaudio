@@ -69,5 +69,7 @@ if __name__ == "__main__":
     if not os.path.exists(f"audio"):
         os.makedirs(f"audio")
     speaker.create_recording(f"audio\{fileName}.wav", text)
-    if argType != "-w":
+    if argType not in ["-w","-f"]:
         os.system(f"rm {fileName}.txt {pdfFileName}")
+    elif argType in ["-f"]:
+        os.system(f"rm {fileName}.txt")

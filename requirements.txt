@@ -5,7 +5,7 @@ cffi==1.13.2
 chardet==3.0.4
 comtypes==1.1.7
 configparser==4.0.2
-cryptography==2.8
+cryptography==3.2
 fire==0.2.1
 idna==2.8
 lxml==4.4.2
